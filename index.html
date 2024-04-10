@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Renderer</title>
+    <style>
+        .tree {
+            padding: 20px;
+            margin: 0 auto;
+            width: 800px;
+        }
+        .level {
+            width: 40px;
+            height: 40px;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 50%;
+            text-align: center;
+        }
+        .level1 {
+            
+            background-color: #8ca0ff;
+        }
+        .level2 {
+            margin-left: 80px;
+            background-color: #ffa08c;
+        }
+        .level3 {
+            margin-left: 160px;
+            background-color: #ffff64;
+        }
+        .level4 {
+            margin-left: 240px;
+            background-color: #8cffa0;
+        }
+    </style>
+</head>
+
+<body>
+    <input id="treeText" class="input" placeholder="Введите текстовое определение дерева..."></input>
+    <button class="button">Отрисовать</button>
+    <div class="tree"></div>
+
+    <script src="index.js">
+    </script>
+</body>
+
+</html>
